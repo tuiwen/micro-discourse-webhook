@@ -8,9 +8,9 @@ if (process.env.NODE_ENV !== 'production') {
 }
 
 const webhook = data => {
-  console.log(`event type: ${data.discourseEventType}\n`);
-  console.log(`event: ${data.discourseEvent}\n`);
-  console.log('payload:\n');
+  console.log(`event type: ${data.discourseEventType}`);
+  console.log(`event: ${data.discourseEvent}`);
+  console.log('payload:');
   console.log(data.payload);
 };
 
