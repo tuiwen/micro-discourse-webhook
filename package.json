@@ -1,0 +1,38 @@
+{
+  "name": "micro-discourse-webhook",
+  "version": "0.1.0",
+  "description": "A skeleton of microservice for Discourse web hooks.",
+  "main": "index.js",
+  "scripts": {
+    "start": "micro",
+    "test": "xo"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/littledumb/micro-discourse-webhook.git"
+  },
+  "keywords": [
+    "micro",
+    "service",
+    "Discourse",
+    "web",
+    "hook"
+  ],
+  "author": "Jiamin Zhao",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/littledumb/micro-discourse-webhook/issues"
+  },
+  "homepage": "https://github.com/littledumb/micro-discourse-webhook#readme",
+  "dependencies": {
+    "crypto": "^1.0.1",
+    "dotenv": "^6.1.0",
+    "micro": "^9.3.3"
+  },
+  "devDependencies": {
+    "xo": "^0.23.0"
+  },
+  "xo": {
+    "space": true
+  }
+}
